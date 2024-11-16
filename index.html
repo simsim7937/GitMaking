@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
   <!-- Custom Styles-->
   <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/custom.css" type="text/css">
   <!-- 페이지 제목-->
   <title>SCU GyeongJoon</title>
 
@@ -80,7 +81,7 @@
   
   <!-- Navigation Menu /// 네비게이션-->
   <!-- Nav class 1 -->
- 
+
   <nav class="hide-on-small-only"> 
     <ul class="side-nav fixed section table-of-contents">
 
@@ -152,6 +153,7 @@
         <a aria-label="Open Varad's resume in a new tab" href="/assets/resume/Varad_Bhogayata_Resume.pdf" target="_blank"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>이력서</span></a>  
       </li>
+
     </ul>
   </nav>
 
@@ -164,6 +166,7 @@
       <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">민경준</a>
         <span class="black-text">Factory Engineering</span>
     </div>
+    
   </nav>
   
   <!-- 모바일 환경에서 표시 -->
@@ -213,18 +216,19 @@
         <div class="col-md-9">
           <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
             <div class="caption">
-              <h2>Hi, I'm <span class="teal">Gyeong Joon Min</span>.</span></h2>
+              <h2>안녕하세요! 저는<span class="teal">민경준</span></span><span>입니다<div class=""></div></span></h2>
               <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
               <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
+              <h5>미래에 데이터 분석 전문가 및 개발자를 위하여 한걸음씩 나아가고 있는 흔하디 흔한 직장인입니다.</h5>
             </div>
             <div class="social">
-              <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
+              <!-- linkedin 사용안함 -->
+              <!-- <a href="http://linkedin.com/in/varadbhogayata" target="_blank">
                 <button class="icon-btn linkedin">
                   <i class="fa fa-linkedin"></i>
                 </button>
-              </a>
-              <a href="https://github.com/varadbhogayata/" target="_blank">
+              </a> -->
+              <a href="https://github.com/simsim7937/" target="_blank">
                 <button class="icon-btn github">
                   <i class="fa fa-github"></i>
                 </button>
@@ -245,8 +249,8 @@
               </a> -->
             </div>
             <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
+              <a href="#about" class="readme">자세히</a>
+              <a href="#contact" class="contactme">연락처</a>
             </div>
           </div>
         </div>
@@ -1012,6 +1016,17 @@ of each drug container to estimate the degradation of the drug.
       </div>
     </section>
   </main>
+  <!-- Userchat UI -->
+  <button id="userchat-button"><span id="userchat-button-icon"></span>💬</button>
+  <div id="userchat-window">
+    <div id="userchat-header">채팅</div>
+    <div id="userchat-displaymsg"></div>
+    <div id="userchat-inputmsg">
+      <input type="text" id="userchat-inputmsg-input" placeholder="메시지를 입력하세요...">
+      <button id="userchat-inputmsg-button">전송</button>
+    </div>
+  </div>
+
 
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
@@ -1043,6 +1058,10 @@ of each drug container to estimate the degradation of the drug.
     })
   </script>
   <script src="assets/vendor/custom.js"></script>
+
+
+
+
 </body>
 
 </html>

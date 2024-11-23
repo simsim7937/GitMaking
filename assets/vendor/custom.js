@@ -4,6 +4,16 @@ const chatMessages = document.getElementById('userchat-displaymsg');
 const chatInput = document.getElementById('userchat-inputmsg-input');
 const sendButton = document.getElementById('userchat-inputmsg-button');
 
+
+// 메인 능력치 타이핑 시스템
+var typed = new Typed('.typing',{
+    strings: ["엔지니어링","공장 설계", "개발자", "재빠른 학습자"],
+    loop: true,
+    typeSpeed: 50,
+    backSpeed: 40
+  });
+
+
 // 채팅창 열기/닫기 토글
 chatButton.addEventListener('click', () => {
 if (chatWindow.style.display === 'none' || chatWindow.style.display === '') {
